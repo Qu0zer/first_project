@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CAFE X JOJO'S 🌟</title>
+        <link href="cafeXjojo's.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <img
+                id="header-image"
+                height="300"
+                width="800"
+                src="https://i.pinimg.com/736x/0e/f9/4e/0ef94e24192e10a330515eee8128ef2e.jpg"
+                alt="Jojo's Banner"
+            />
+             <h1>Roundabout Cafe 🌍</h1>
+             <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order-form">Order Form</a></li>
+                </ul>
+             </nav>
+        </header>
+        <main>
+            <section id="menu"> <!-- Rondabout's Menu -->
+                <h2>Menu</h2>
+                <article class="item">
+                    <img 
+                    width="200"
+                    height="200"
+                    src="https://i.pinimg.com/736x/57/6f/e7/576fe7804f8cd75f462626afeb4a8f12.jpg"
+                    alt="Kakyoin Donut"
+                    />
+                    <h3>Kakyoin Donut</h3> <!-- Product name -->
+                    <p>
+                        A pack of <b>3 Vanilla Iced Cake Donut with Pink Cherry Sprinkles</b>
+                        <br>
+                        Memories of one last <u>emerald splash</u> before the clock starts running...
+                        <br>
+                        <i>$4.59</i>
+                    </p>
+                </article>
+                <br/><hr/>
+                <article class="item">
+                    <img
+                    width="200"
+                    height="200"
+                    src="https://i.pinimg.com/736x/ad/71/d0/ad71d0c6dfe232cca107ab2302a483a3.jpg"
+                    alt="Polnareff Capuccino"
+                    />
+                    <h3>Polnareff Capuccino</h3> <!-- Product name -->
+                    <p>
+                        Delicious capuccino made by our french barista, <b>Jean Pierre Polnareff!</b>
+                        <br>
+                        "Why hello there, my dear! How about a <u>cup of tea</u> afterwards?"
+                        <br>
+                        <i>$2.10</i>
+                    </p>
+                </article>
+                <br/><hr/>
+                <article class="item">
+                    <img
+                    width="200"
+                    height="200"
+                    src="https://64.media.tumblr.com/975b7cd8f74f4abd6e9438e4f4bd0fdc/tumblr_pblk2vMycV1wxbjq5o2_1280.pnj"
+                    alt="Tonio's Dish"
+                    />
+                    <h3>Insalata Capreste</h3> <!-- Product name -->
+                    <p>
+                        An original plate of tomato and cheese with healing properties made by the famous chef, <b>Tonio Trussardi</b>.
+                        <br>
+                        His famous recipe is well known at his restaurant <u>Trattoria Trusardi</u> in Morioh's Town.
+                        <br>
+                        <i>$8.99</i>
+                    </p>
+                </article>
+                <br/><hr/>
+            </section>
+            <section id="order-form"> <!-- Order Form -->
+                <h2>Place your order</h2>
+                <form>
+                    <label>Kakyoin Donut</label> <!-- Amounts for the items of the menu-->
+                    <input type="number" class="input_number" min="0" placeholder="Please select an amount" required/>
+                        <br><br>
+                    <label>Polnareff Capuccino</label>
+                    <input type="number" class="input_number" min="0" placeholder="Please select an amount" required/>
+                        <br><br>
+                    <label>Insalata Capreste</label>
+                    <input type="number" class="input_number" min="0" placeholder="Please select an amount" required/>
+                        <br><br>
+                    <label> Extras </label> <!-- Additions appart of the main menu-->
+                        <br><br>
+                    <input type="checkbox" class="input_box" name="extra" /> Extra Milk <i>$0.99</i>
+                        <br><br>
+                    <input type="checkbox" class="input_box" name="extra" /> Jojo Cup <i>$2.99</i>
+                        <br><br>
+                    <input type="checkbox" class= "input_box" name="extra" /> Water Bottle <i>$1.99</i>
+                        <br><br><hr/>
+                    <label> Are you allergic to anything you eat or drink? </label> <!-- Just in case allergic section-->
+                        <br><br>
+                    <input type="radio" class="input_box" name="allergic" /> Milk
+                        <br><br>
+                    <input type="radio" class="input_box" name="allergic" /> Peanuts
+                        <br><br>
+                    <input type="radio" class="input_box" name="allergic" /> Else
+                        <br><br>
+                    <textarea cols="40" rows= "4" placeholder="Please specify what kind of allergic you have: "></textarea>
+                        <br><br><hr/>
+                    <input type="submit" value="Go To Checkout" /> <!-- Submit your order boi!-->
+                        <br><br><hr/>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>
+                <strong>Made with love by <a href="https://www.codedex.io/@Quozer" target="_blank">Quozer</a>!</strong>
+            </p>
+        </footer>
+    </body>
+</html>
